@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(232, 246, 255);
+  font-family: Arial, sans-serif;
+}
+
+.profile-container {
+  width: 220%;
+  margin: 50px auto;
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: -10%;
+  padding-left: -50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  right:57%;
+}
+
+.profile-text {
+  position: relative;
+  
+}
+
+.profile-form-control {
+  width: 45%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 2%;
+}
+
+.profile-form-control:focus {
+  outline: none;
+  border-color: #ba68c8;
+  box-shadow: 0 0 5px rgba(186, 104, 200, 0.5);
+}
+
+.profile-image{
+    position: relative;
+    margin-left: 42%;
+}
+
+.profile-save-button {
+  width: 100%;
+  padding: 10px;
+  background-color: gray;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile-save-button:hover,
+.profile-save-button:focus,
+.profile-save-button:active {
+  background-color: darkgray;
+}
+
+.profile-back-link {
+  color: #682773;
+  cursor: pointer;
+}
+
+.profile-label {
+  font-size: 11px;
+  margin-right: 44%;
+}
+
+.profile-label-AD {
+  font-size: 11px;
+  margin-right: 41.8%;
+}

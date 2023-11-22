@@ -1,0 +1,19 @@
+.dashboard {
+  background-size: fill;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  color: #fff;
+  margin-right: 10%;
+  overflow: hidden;
+}
+
+.dash-h1 {
+  font-size: 3rem;
+  color: #000;
+  position: relative;
+  right: 50px;
+  bottom: 40px;
+}
